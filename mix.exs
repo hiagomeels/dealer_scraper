@@ -30,7 +30,7 @@ defmodule DealerScraper.MixProject do
       {:floki, "~> 0.29.0"},
       {:jason, "~> 1.2"},
       {:ex_doc, "~> 0.23.0", only: :dev},
-      {:credo, "~> 1.5", only: :dev},
+      {:credo, "~> 1.5", only: [:dev, :test]},
       {:bypass, "~> 2.1", only: [:dev, :test]},
       {:excoveralls, "~> 0.13.3", only: [:dev, :test]}
     ]
