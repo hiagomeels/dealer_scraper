@@ -1,5 +1,7 @@
 # DealerScraper
 
+[![Build Status](https://travis-ci.org/hiagomeels/dealer_scraper.svg?branch=main)](https://travis-ci.org/hiagomeels/dealer_scraper)
+[![Coverage Status](https://coveralls.io/repos/github/hiagomeels/dealer_scraper/badge.svg?branch=main)](https://coveralls.io/github/hiagomeels/dealer_scraper?branch=main)
 [![License? MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/hiagomeels/dealer_scraper/blob/main/LICENSE)
 
 This project is a scraper to get reviews of a dealer from https://www.dealerrater.com.
@@ -32,28 +34,36 @@ git clone https://github.com/hiagomeels/dealer_scraper.git
 cd dealer_scraper
 ```
 
+### Getting dependencies
+
+To get the project dependencies you can run:
+
+```BASH
+mix deps.get
+```
+
 ### Getting the three most overlay reviews for a dealer
 
 To get the three most overlay reviews just execute following command:
 
-```shell
-$ mix overly_positive --dealer "McKaig Chevrolet Buick"
+```BASH
+mix overly_positive --dealer "McKaig Chevrolet Buick"
 ```
 
 ### Running tests
 
 To run tests you can run:
 
-```shell
-$ mix test
+```BASH
+mix test
 ```
 
 ## Building documentation
 
 To build documentation run the following command:
 
-```shell
-$ mix docs
+```BASH
+mix docs
 ```
 
 ## Contribute
